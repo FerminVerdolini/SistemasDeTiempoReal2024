@@ -190,5 +190,4 @@ end Principal;
 4. Muestra por pantalla los valores de la cola de fracciones
 
 ---
-
-[GitHub - FerminVerdolini/SRTPractica3: Tipos abstractos de datos](https://github.com/FerminVerdolini/SRTPractica3)
+[GitHub - FerminVerdolini/SistemasDeTiempoReal2024: Sistemas de Tiempo Real 2024 - UAH - EPS](https://github.com/FerminVerdolini/SistemasDeTiempoReal2024)
