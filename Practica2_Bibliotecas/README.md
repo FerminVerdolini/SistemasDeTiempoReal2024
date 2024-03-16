@@ -203,5 +203,4 @@ end Prueba;
 ```
 
 ---
-
-[GitHub - FerminVerdolini/SRTPractica2: Bibliotecas](https://github.com/FerminVerdolini/SRTPractica2))
+[GitHub - FerminVerdolini/SistemasDeTiempoReal2024: Sistemas de Tiempo Real 2024 - UAH - EPS](https://github.com/FerminVerdolini/SistemasDeTiempoReal2024)
