@@ -93,4 +93,4 @@ La nota media del periodo 20 de AGOSTO de 2004 a 22 de ABRIL de 2021 ha sido de 
     <u>Para escribir este programa y los de las prácticas siguientes se **recomienda** utilizar de forma intensiva los **atributos** de los tipos y objetos.</u>
 
 ---
-[GitHub - FerminVerdolini/SRTPractica1: Programación a pequeña escala](https://github.com/FerminVerdolini/SRTPractica1) 
+[GitHub - FerminVerdolini/SistemasDeTiempoReal2024: Sistemas de Tiempo Real 2024 - UAH - EPS](https://github.com/FerminVerdolini/SistemasDeTiempoReal2024)
