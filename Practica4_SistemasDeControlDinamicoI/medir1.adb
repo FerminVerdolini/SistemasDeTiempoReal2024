@@ -15,7 +15,7 @@ procedure Medir1 is
     Cp,temp_delta,temp_delta_max : Float;
 
     F         : File_Type;
-    File_Name : constant String := "medir1Out.txt";
+    File_Name : constant String := "mediciones.txt";
 begin
     Sensor.Leer(te);
     Put("Te = " & te'Image & "C");New_Line;
@@ -54,12 +54,15 @@ begin
 
     end loop;
     
+    Put("Te = " & te'Image & "C");New_Line;
+    Put("L = " & L'Image & "s");New_Line;
     Put("dT = " & Float(temp_delta_max)'Image & "C");New_Line;
     Put("dt = " & tiempo_delta'Image & "s");New_Line;
     Put("P = " & Float(pot)'Image & "W");New_Line;
     Put("T = " & Float(temp_act)'Image & "C");New_Line;
     Put("Cp = " & Cp'Image & "W/C");New_Line;
 
+-- Escribo estos datos en un txt lo optimo seria usar medir 2 apartir de estos
     Create (F, Out_File, File_Name);
     Put_Line (F, "Te = " & te'Image & "C");
     Put_Line (F, "dT = " & Float(temp_delta_max)'Image & "C");

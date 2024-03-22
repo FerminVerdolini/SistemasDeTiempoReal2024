@@ -94,7 +94,7 @@ Una vez realizadas todas las medidas se completará la tabla siguente:
 
 | Parámetro | Valor y unidades |
 | --------- | ---------------- |
-| $Te$      |                  |
-| $L$       |                  |
-| $Cp$      |                  |
-| $Ct$      |                  |
+| $Te$      | 20.00 C          |
+| $L$       | 0.751098462 s    |
+| $Cp$      | 15.0009 W/C      |
+| $Ct$      | 1497.60 J/C      |

@@ -1,0 +1,8 @@
+@startuml Medir1Diagram
+
+[Medir1] <-down- Sensor
+[Medir1] -down-> Calefactor
+[Horno] -up-> Sensor
+[Horno] <-up- Calefactor
+
+@enduml
