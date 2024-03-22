@@ -67,8 +67,11 @@ end Calefactor;
 
     En el cuerpo de este paquete se implementará la operación `Escribir`, encargada de escribir la potencia que se le suministra al horno. Esta implementación se hará usando el paquete `Horno`.
 
-3.    Escribir un programa de nombre `Medir1` que mida el valor de los parámetros: $Te$ , $L$ y $Cp$ . La medida de $Te$ es directa y se corresponde con la temperatura del horno en reposo. La medida de $L$ se obtiene
-viendo el tiempo que tarda el horno en responder cuando le aplicamos una potencia cualquiera, por ejemplo $1000 W$. La medida de `Cp` se puede hacer cuando el horno alcanza el régimen permanente después de aplicarle una potencia cualquiera. El régimen permanente se corresponde con $t → ∞$ y se verifica que $dT /dt = 0$. En estas condiciones $0 = P − Cp (T − Te )$.
+3.    Escribir un programa de nombre `Medir1` que mida el valor de los parámetros: $Te$ , $L$ y $Cp$ . La medida de $Te$ es directa y se corresponde con la temperatura del horno en reposo. La medida de $L$ se obtiene viendo el tiempo que tarda el horno en responder cuando le aplicamos una potencia cualquiera, por ejemplo $1000 W$. La medida de `Cp` se puede hacer cuando el horno alcanza el régimen permanente después de aplicarle una potencia cualquiera. El régimen permanente se corresponde con $t → ∞$ y se verifica que $dT /dt = 0$. En estas condiciones $0 = P − Cp (T − Te )$. Despejando la formula: 
+
+$$
+Cp = \cfrac{P}{T-Te}
+$$
 
 4.    Dibujar el diagrema de componentes del programa `Medir1`.
 
