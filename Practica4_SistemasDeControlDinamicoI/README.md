@@ -98,3 +98,7 @@ Una vez realizadas todas las medidas se completará la tabla siguente:
 | $L$       | 0.751098462 s    |
 | $Cp$      | 15.0009 W/C      |
 | $Ct$      | 1497.60 J/C      |
+
+---
+
+[GitHub - FerminVerdolini/SistemasDeTiempoReal2024: Sistemas de Tiempo Real 2024 - UAH - EPS](https://github.com/FerminVerdolini/SistemasDeTiempoReal2024)
