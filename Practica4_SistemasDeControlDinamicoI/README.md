@@ -75,6 +75,17 @@ $$
 
 4.    Dibujar el diagrema de componentes del programa `Medir1`.
 
+```plantuml
+@startuml Medir1Diagram
+
+[Medir1] <-down- Sensor
+[Medir1] -down-> Calefactor
+[Horno] -up-> Sensor
+[Horno] <-up- Calefactor
+
+@enduml
+```
+
 5.    Escribir un programa de nombre `Medir2` que utilice los valores obtenidos con el programa anterior y que mida el parámetro $Ct$ . La medida de $Ct$ se debe hacer durante el régimen transitorio. Para ello hay que excitar el horno con una potencia y ver cómo evoluciona la temperatura. Si aproximamos la derivada por un cociente de incrementos tenemos:
 
 $$
