@@ -108,8 +108,6 @@ donde los coeficiente $k_p$ , $T_i$ y $T_d$ se calculan según la regla de *Zieg
    $$
    \tau_d = 0.5 L = 0,800095
    $$
-   
-   
 
 2. Escribir un paquete de nombre PID que se ajuste a la especificación siguiente:
    
@@ -163,3 +161,5 @@ donde los coeficiente $k_p$ , $T_i$ y $T_d$ se calculan según la regla de *Zieg
 4. Ejecutar el programa considerando las temperaturas de referencia 100 C y 200 C. A partir de los datos obtenidos realizar una representación gráfica de la evolución de la temperatura. Para obtener esta representación se puede utilizar cualquier herramienta de presentación de datos, por ejemplo Matlab. En la figura 5.3 podemos ver un ejemplo de los resultados que se obtienen. En [PID_Compensation_Animated.gif](https://castilloinformatica.es/wiki/index.php?title=Archivo:PID_Compensation_Animated.gif) puedes ver un ejemplo de cómo afectan las constantes a la respuesta del sistema.
 
 <img src="file:///home/ferminv/snap/marktext/9/.config/marktext/images/2024-04-03-13-18-21-image.png" title="" alt="" data-align="center">
+
+[GitHub - FerminVerdolini/SistemasDeTiempoReal2024: Sistemas de Tiempo Real 2024 - UAH - EPS](https://github.com/FerminVerdolini/SistemasDeTiempoReal2024)
