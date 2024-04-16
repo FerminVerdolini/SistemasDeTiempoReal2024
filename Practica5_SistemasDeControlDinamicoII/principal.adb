@@ -20,6 +20,9 @@ procedure Principal is
                                   Salida => Calefactor.Potencias);
     
     C : Control_Horno.Controlador;
+
+    F         : File_Type;
+    File_Name : constant String := "PID.txt";
 begin
     Control_Horno.Programar(C,1.01164, 3.20038, 0.800095); --Paso las constantes que calcule en el punto 1
     
@@ -28,6 +31,9 @@ begin
     
     Siguiente_Instante := Clock;
     Start_Time := Clock;
+
+    Create (F, Out_File, File_Name);
+    
 
     loop
         delay until Siguiente_Instante;
@@ -40,16 +46,18 @@ begin
 
         Put("Temperatura actual del horno : " & T'Image & "C");New_Line;
 
+        Put_Line (F, T'Image);
+
         Current_Time := Clock;
         Elapsed_Time := Current_Time - Start_Time; 
-        exit when Float(To_Duration(Elapsed_Time)) /600.0 > 10.0 ; 
+        exit when Float(To_Duration(Elapsed_Time)) /60.0 > 10.0 ; 
         
            
         Siguiente_Instante := Siguiente_Instante + Periodo;
 
     end loop;
     
-
+    Close (F);
 
     Calefactor.Escribir(0.0);
 
