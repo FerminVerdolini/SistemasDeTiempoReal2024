@@ -184,17 +184,17 @@ Utilizando los procedimientos `Medir` y `Planificar` del paquete `Plan`, escribi
 
 | Procedimiento | T. Computo |
 | ------------- | ---------- |
-| 1             | ?          |
-| 2             | ?          |
-| 3             | ?          |
-| 4             | ?          |
+| 1             | 400        |
+| 2             | 600        |
+| 3             | 800        |
+| 4             | 800        |
 
 | Tarea | T    | D    | C   | P   | R   | Planificable |
 | ----- | ---- | ---- | --- | --- | --- | ------------ |
-| 1     | 2400 | 600  | ?   | ?   | ?   | ?            |
-| 2     | 3200 | 1200 | ?   | ?   | ?   | ?            |
-| 3     | 3600 | 2000 | ?   | ?   | ?   | ?            |
-| 4     | 4000 | 3200 | ?   | ?   | ?   | ?            |
+| 1     | 2400 | 600  | 400 | 4   | 400 | SI           |
+| 3     | 3600 | 2000 | 800 | 2   | 1800| SI           |
+| 2     | 3200 | 1200 | 400 | 3   | 1000| SI           |
+| 4     | 4000 | 3200 | 800 | 1   | 3000| SI           |
 
 Los campos que aparecen marcados con ? tienen que ser calculados con los procedimientos del paquete Plan.
 
